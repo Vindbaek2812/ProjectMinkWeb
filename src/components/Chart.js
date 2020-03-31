@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import {Bar, Line, Pie,Polar, Radar} from 'react-chartjs-2';
+import {Line} from 'react-chartjs-2'; //Bar, Line, Pie,Polar and Radar can be used as well
 class Chart extends Component{
     constructor(props){
         super(props);
         this.state={
             chartData:{
-                labels:['','','','','',''],
+                labels:['','','','','','','','','','','','','',''],
                 datasets:[
                     {
                         label:'Temp',
@@ -15,10 +15,18 @@ class Chart extends Component{
                             56,
                             10,
                             112,
-                            24
+                            24,
+                            34,
+                            56,
+                            89,
+                            11,
+                            34,
+                            12,
+                            45,
+                            0
                         ],
                         backgroundColor:[
-                            'rgba(255,99,0,1.6)'
+                            'rgba(255,99,0,.6)'
                         ]
 
                     }
