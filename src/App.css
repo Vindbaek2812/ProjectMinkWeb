@@ -38,6 +38,10 @@
     height: auto;
     position: relative;
   }
+  .main {
+    margin-left: 160px; 
+    padding: 0px 10px;
+  }
   .sidebar a {float: left;}
   div.content {margin-left: 0;}
 }
@@ -48,9 +52,8 @@
     text-align: center;
     float: none;
   }
-}
-.main {
-  
-
-
+  .main {
+    margin-left: 10px; /* Same as the width of the sidenav */
+    padding: 0px 10px;
+  }
 }

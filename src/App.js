@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Chart from './components/Chart';
 
 function App() {
   return (
@@ -10,6 +11,10 @@ function App() {
           <a href="#statistics"><i class="fa fa-fw fa-pie-chart"></i> Statistic</a>
           <a href="#contact"><i class="fa fa-fw fa-envelope"></i> Contact</a>
           <a href="#login"><i class="fa fa-fw fa-user"></i> Login</a>
+        </div>
+        <div>
+          <Chart>
+          </Chart>
         </div>
     </html>
     
