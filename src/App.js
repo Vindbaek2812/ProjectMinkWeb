@@ -1,25 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <html>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <div class="sidebar">
+          <a class="active" href="#home"><i class="fa fa-fw fa-home"></i> Home</a>
+          <a href="#statistics"><i class="fa fa-fw fa-pie-chart"></i> Statistic</a>
+          <a href="#contact"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+          <a href="#login"><i class="fa fa-fw fa-user"></i> Login</a>
+        </div>
+    </html>
+    
   );
 }
 
