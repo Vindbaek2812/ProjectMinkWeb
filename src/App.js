@@ -34,6 +34,25 @@ function App() {
                   <li class="flex-item-mini">2</li>
                   <li class="flex-item-mini">2</li>
                 </ul>
+                <li class="flex-item1">
+                <Chart class="Yes"/>
+                </li>
+                <ul class='flex-container-mini'>
+                  <li class="flex-item-mini">2</li>
+                  <li class="flex-item-mini">2</li>
+                </ul>
+                <ul class='flex-container-mini'>
+                  <li class="flex-item-mini">2</li>
+                  <li class="flex-item-mini">2</li>
+                </ul>
+                <ul class='flex-container-mini'>
+                  <li class="flex-item-mini">2</li>
+                  <li class="flex-item-mini">2</li>
+                </ul>
+                <ul class='flex-container-mini'>
+                  <li class="flex-item-mini">2</li>
+                  <li class="flex-item-mini">2</li>
+                </ul>
               </ul>
           </div>
         </body>
