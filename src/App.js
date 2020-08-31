@@ -1,6 +1,9 @@
 import React from 'react';
 import './App.css';
-import Chart from './components/Chart';
+
+
+
+
 
 
 function App() {
@@ -11,48 +14,16 @@ function App() {
         <a class="active" href="#home"><i class="fa fa-fw fa-home"></i> Home</a>
         <a href="#statistics"><i class="fa fa-fw fa-pie-chart"></i> Statistic</a>
         <a href="#contact"><i class="fa fa-fw fa-envelope"></i> Contact</a>
-        <a href="#login"><i class="fa fa-fw fa-user"></i> Login</a>
+        <a href="Register.html"><i class="fa fa-fw fa-user"></i> Register</a>
+       
+
+        
         </header>
+
         <body class='body'>
+          
           <div class='content'>
             <ul class="flex-container">
-              <li class="flex-item1">
-                <Chart class="Yes"/></li>
-                <ul class='flex-container-mini'>
-                  <li class="flex-item-mini">2</li>
-                  <li class="flex-item-mini">2</li>
-                </ul>
-                <ul class='flex-container-mini'>
-                  <li class="flex-item-mini">2</li>
-                  <li class="flex-item-mini">2</li>
-                </ul>
-                <ul class='flex-container-mini'>
-                  <li class="flex-item-mini">2</li>
-                  <li class="flex-item-mini">2</li>
-                </ul>
-                <ul class='flex-container-mini'>
-                  <li class="flex-item-mini">2</li>
-                  <li class="flex-item-mini">2</li>
-                </ul>
-                <li class="flex-item1">
-                <Chart class="Yes"/>
-                </li>
-                <ul class='flex-container-mini'>
-                  <li class="flex-item-mini">2</li>
-                  <li class="flex-item-mini">2</li>
-                </ul>
-                <ul class='flex-container-mini'>
-                  <li class="flex-item-mini">2</li>
-                  <li class="flex-item-mini">2</li>
-                </ul>
-                <ul class='flex-container-mini'>
-                  <li class="flex-item-mini">2</li>
-                  <li class="flex-item-mini">2</li>
-                </ul>
-                <ul class='flex-container-mini'>
-                  <li class="flex-item-mini">2</li>
-                  <li class="flex-item-mini">2</li>
-                </ul>
               </ul>
           </div>
         </body>
