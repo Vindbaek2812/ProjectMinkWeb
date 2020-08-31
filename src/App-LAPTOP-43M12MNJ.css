@@ -1,0 +1,124 @@
+/* Style the sidebar - fixed full height */
+.sidebar {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+/* Style sidebar links */
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+.body{
+  height: 100%;
+  
+}
+
+/* Style links on mouse-over */
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+div.content {
+  margin-left: 160px;
+  padding: 1px 0px;
+  height: 100%;
+  
+}
+
+/* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 7.5px;}
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 350px) {
+  
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+  div.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+}
+
+.flex-container {
+  display: inline-flex;
+  flex-flow: row wrap;
+  justify-content: left;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.flex-container-mini {
+  display: inline-flex;
+  flex-flow: column;
+  justify-content: start;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.flex-item {
+  background:white;
+  box-shadow: 5px 5px 2.5px grey;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  margin-left: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+.flex-item1 {
+  background:rgb(241, 241, 241);
+  box-shadow: 5px 5px 2.5px grey;
+  padding: 5px;
+  width: 350px;
+  min-width: 350px;
+  height: 150px;
+  margin-top: 10px;
+  margin-left: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+.flex-item-mini {
+  background:rgb(241, 241, 241);
+  box-shadow: 5px 5px 2.5px grey;
+  padding: 5px;
+  width: 165px;
+  min-width: 70px;
+  height: 65px;
+  margin-top: 10px;
+  margin-left: 10px;
+  line-height: 50px;
+  color: black;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
